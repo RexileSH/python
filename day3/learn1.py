@@ -1,5 +1,5 @@
 print("Welcome to the rollercoaster!")
-height= int(input("What is your height in cm?"))
+height= float(input("What is your height in cm?"))
 age=int(input("enter your age"))
 if height>120:
     print("you can ride the rollercoaster!")
