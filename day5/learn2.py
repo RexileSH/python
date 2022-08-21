@@ -10,6 +10,11 @@ for hegiht in student_heights:
     total_height=total_height+hegiht
 print(total_height)
 ####
-number_of_student=len(student_heights)
+number_of_student=0
+for number in student_heights:
+    number_of_student=number_of_student+1
+print(number_of_student)  
+####
 result=round(total_height/number_of_student)
 print(result)
+
