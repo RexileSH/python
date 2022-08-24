@@ -7,8 +7,7 @@ random_choice = random.randint(0, num_items -1)
 print(random_choice)
 person=names[random_choice]
 print(person)
-print(num_items)
- #بطريقة اخرى ل اختيار عشوائي
-person2=random.choice(names)
-print(person2)
+#بطريقة اخرى ل اختيار عشوائي
+#person2=random.choice(names)
+#yasprint(person2)
 
