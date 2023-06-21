@@ -1,5 +1,2 @@
-num_chart = len(input("what is your name? "))
-
-new_num_char = str(num_chart)
-
-print("your name has " + new_num_char + " character")
+num_chart = str(len(input("what is your name? ")))
+print("your name has "  + num_chart  +" character")
